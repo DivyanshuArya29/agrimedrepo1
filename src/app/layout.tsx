@@ -11,6 +11,7 @@ import HomePage from "@/pages/HomePage";
 import Navbar2 from "@/components/Navbar2";
 import Notifications from "@/pages/Notifications";
 import Feedback from "@/pages/Feedback";
+import Doctors from "@/pages/Doctors";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -45,11 +46,12 @@ export default function RootLayout({
         {/* <HealthCard /> */}
         {/* <HomePage /> */}
         {/* <Notifications /> */}
-        <Navbar2 />
+        {/* <Navbar2 /> */}
         {/* <Gradiant /> */}
         {/* <Footer /> */}
         {/* <Feedback /> */}
         {/* <HomePage /> */}
+        {/* <Doctors /> */}
         {children}
       </body>
     </html>
